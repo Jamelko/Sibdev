@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/registr.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <title>Регистрация</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+       <div class="container">
+         <div class="row">
+       <ul class="nav navbar-nav">
+        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+       </ul>
+       <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Вход</a></li>
+          </u1>
+      </div>
+     </div>
+   </div>
+    </nav>
+
+   <div class="container">
+     <form class="form-registration" >
+       <h3 class="form-registration-heading"> Введите данные</h3>
+       <label for="inputName"> Имя</label>
+       <input type="text" name="name" id="inputName" class="form-control"  required pattern="^[А-Яа-яЁё]+$" >
+       <br>
+       <label for="inputSurname"> Фамилия</label>
+       <input type="text" name="surname" id="inputSurname" class="form-control"  required pattern="^[А-Яа-яЁё]+$">
+       <br>
+       <label for="inputPatronymic"> Отчество</label>
+       <input type="text" name="patronymic" id="inputPatronymic" class="form-control"  required pattern="^[А-Яа-яЁё]+$">
+       <br>
+       <label for="inputEmail"> Email</label>
+       <input type="email" name="email" id="inputEmail" class="form-control" required type="email">
+       <br>
+       <label for="inputPassword"> Пароль </label>
+       <input type="password" name="password" id="inputPassword" class="form-control"  required>
+       <br>
+       <label for="inputPassword-repeat">Повторите пароль</label>
+       <input type="password" name="password-repeat" id="inputPassword-repeat" class="form-control"  required>
+       <br>
+       <button class="btn btn-lg btn-primary btn-block" type="submit">Зарегестрироваться</button>
+     </form>
+   </div>>
+
+   <footer class="footer">
+     <hr>
+     <div class="container">
+         <p class="text-muted"> </p>
+     </div>
+   </footer>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/j.."></script>
+   <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
