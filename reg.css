@@ -1,0 +1,8 @@
+body > .container {
+  padding:60px;
+}
+
+.form-registration {
+  max-width: 400px;
+  padding: 10px;
+  margin: 0 auto;}
